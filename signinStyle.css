@@ -1,0 +1,207 @@
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+* {
+    font-family: 'NanumSquare', sans-serif;
+    margin : 0;
+    padding : 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button {
+    border : none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    /* width :100vw;
+    height: 100vh; */
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+
+}
+
+/* 왼쪽 파란색 */
+.left-blue {
+    background-color: #267dff;
+    width : 40%;
+    height: 100%;
+    /* height : auto; */
+}
+
+.right-white {
+    background-color: white;
+    width: 60%;
+    height: 100%;
+}
+
+#create-account {
+    margin-top: 45px;
+    margin-right: 45px;
+    text-align: right;
+}
+
+#blank {
+    height: 21.6px;
+}
+
+.wrap {
+    max-width: 588px;
+    margin : 0 auto;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.login-title {
+    width: 100%;
+    margin-top : 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.Welcome {
+    display: flex;
+    align-items : center;
+    justify-content: flex-start;
+}
+
+.Welcome h2 {
+    color : #000;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 42px;
+}
+
+.login-title p {
+    font-size: 25px;
+    font-weight: 700;
+    color : #bdbdbd;
+}
+
+.login {
+    margin-top : 53px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#name, #email, #password {
+    width: 588px;
+    position: relative;
+}
+
+#user-icon, #envelope-icon, #lock-icon {
+    color: #A1A1A1;
+    position: absolute;
+    left: 23px;
+    top: 53px;
+}
+
+#eye-slash-icon {
+    color: #A1A1A1;
+    position: absolute;
+    right: 23px;
+    top: 53px;
+}
+
+#name-input, #email-input, #password-input {
+    width: 588px;
+    font-size: 20px;
+    font-weight: 500;
+    border: 2.5px solid #E0E0E0;
+    border-radius: 5px;
+
+    padding: 20px 60px;
+    margin-top: 28px;
+}
+
+#name-input::placeholder, #email-input::placeholder, #password-input::placeholder {
+    color: #BDBDBD;
+}
+
+#signin-btn {
+    width: 588px;
+    height: 65px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #267dff;
+    border: none;
+    border-radius: 31.5px;
+    box-shadow: 0px 5px 8px 0 rgba(0,0,0,0.25);
+    cursor: pointer;
+
+    padding: 17px 263px;
+    margin-top: 40px; 
+    margin-bottom: 25px;
+}
+
+.pw-condition {
+    margin-top : 15px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left : 25px;
+    color : #828282;
+}
+
+.buttons {
+    margin-top : 87px;
+}
+
+#btn1, #btn2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.check-sentence {
+    margin-left : 13px;
+    font-size: 16px;
+    font-weight: 400;
+    color : #828282;
+}
+
+#btn2 {
+    margin-top : 17px;
+}
+
+input[type="checkbox"] {
+    display: inline-block;
+	width: 21px;
+	height: 21px;
+	border: 2px solid #828282;
+    border-radius : 2px;
+	cursor: pointer;
+}    
+/* 수정 필요 */
+
+#sign-in-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 588px; */
+    height: 65px;
+    /* font-size: 20px;
+    font-weight: 700;
+    color: #ffffff; */
+    background-color: #267dff;
+    border-radius: 31.5px;
+    box-shadow: 0px 5px 8px 0 rgba(0,0,0,0.25);
+    /* padding: 17px 0; */
+    margin-top: 55px; 
+}
+
+#sign-in-btn span {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+}

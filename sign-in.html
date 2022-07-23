@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign-in</title>
+    <link rel="stylesheet" href="signinStyle.css">
+    <script src="https://kit.fontawesome.com/9953406f4b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="left-blue">
+        로고
+    </div>
+    <div class="right-white">
+        
+        <div id="create-account">
+            <div id="blank"></div>
+        </div>
+        
+            <div class="wrap">
+
+                <div class="login-title">
+                    <div class="Welcome">
+                        <h2>Welcome to (과제헬퍼)!</h2>
+                    </div>
+                    <p>Register your account</p>
+                </div>
+
+                <div class="login">
+
+                    <form>
+                        <div id="name">
+                            <input type="text" name="name" placeholder="이름" id="name-input">
+                            <i id="user-icon" class="fa fa-user fa-lg"></i>
+                        </div>
+
+                        <div id="email">
+                            <input type="text" name="email" placeholder="이메일 (로그인 시 필요)" id="email-input">
+                            <i id="envelope-icon" class="fa fa-envelope fa-lg"></i>
+                        </div>
+            
+                        <div id="password">
+                            <input type="text" name="password" placeholder="비밀번호" id="password-input">
+                            <i id="lock-icon" class="fa fa-lock fa-lg"></i>
+                            <i id="eye-slash-icon" class="fa fa-eye-slash fa-lg"></i>
+                        </div>
+
+                        <div class="pw-condition">
+                            <span>영문, 숫자, 특수문자 2개 조합 10자 이상</span>
+                        </div>
+
+                        <div class="buttons">
+                            <div id="btn1">
+                                <input type="checkbox" id="check1">
+                                <span class="check-sentence">(필수) 서비스 이용약관, 개인정보 처리방침에 동의</span>
+                            </div>
+                            <div id="btn2">
+                                <input type="checkbox" id="check2">
+                                <span class="check-sentence">(선택) 홍보 및 이벤트/ 마케팅 이용동의</span>
+                            </div>
+                        </div>
+
+                        <div id="signin">
+                            <input type="submit" value="가입하기" id="signin-btn">
+                        </div>
+                    </form>
+                </div>
+            </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,217 @@
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+* {
+    font-family: 'NanumSquare', sans-serif;
+    margin : 0;
+    padding : 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button {
+    border : none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    /* width :100vw;
+    height: 100vh; */
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+
+}
+
+/* 왼쪽 파란색 */
+.left-blue {
+    background-color: #267dff;
+    width : 40%;
+    height: 100%;
+    /* height : auto; */
+}
+
+.right-white {
+    background-color: white;
+    width: 60%;
+    height: 100%;
+}
+
+#create-account {
+    margin-top: 45px;
+    margin-right: 45px;
+    text-align: right;
+}
+
+#create-account-btn {
+    color: #267dff;
+    text-decoration: underline;
+}
+
+#wrap {
+    max-width: 588px;
+    margin : 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-title {
+    width: 100%;
+    margin-top : 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.Welcome {
+    display: flex;
+    align-items : center;
+    justify-content: flex-start;
+}
+
+.Welcome h2 {
+    color : #000;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 42px;
+}
+
+.login-title p {
+    font-size: 25px;
+    font-weight: 700;
+    color : #bdbdbd;
+}
+/* 여기까지 Title관련 */
+
+/* 여기서부터 로그인부분 */
+
+.login {
+    margin-top : 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+#email, #password {
+    width: 588px;
+    position: relative;
+}
+
+#envelope-icon, #lock-icon {
+    color: #A1A1A1;
+    position: absolute;
+    left: 23px;
+    top: 53px;
+}
+
+#eye-icon {
+    color: #A1A1A1;
+    position: absolute;
+    right: 23px;
+    top: 53px;
+}
+
+#email-input, #password-input {
+    width: 588px;
+    font-size: 20px;
+    font-weight: 500;
+    border: 2.5px solid #E0E0E0;
+    border-radius: 5px;
+
+    padding: 20px 60px;
+    margin-top: 28px;
+}
+
+#email-input::placeholder, #password-input::placeholder {
+    color: #BDBDBD;
+}
+
+#login-btn {
+    width: 588px;
+    height: 65px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #267dff;
+    border: none;
+    border-radius: 31.5px;
+    box-shadow: 0px 5px 8px 0 rgba(0,0,0,0.25);
+    cursor: pointer;
+
+    padding: 17px 263px;
+    margin-top: 40px; 
+    margin-bottom: 25px;
+}
+
+#forget-1, #forget-2, #forget-3, #forget-4 {
+    font-size: 18px;
+    font-weight: 700;
+} 
+
+#forget-1, #forget-3 {
+    color: #BDBDBD;
+}
+
+#forget-2, #forget-4 {
+    color: #267dff;
+}
+
+.OR {
+    margin-top : 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap : nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.OR .before, .OR .after {
+    display: block;
+    width : 248px;
+    height : 1px;
+    background-color: #e0e0e0;
+}
+
+.OR p {
+    padding : 0 36px;
+    font-size: 20px;
+    line-height: 30px;
+    color : #e0e0e0;
+    margin : 0px;
+}
+
+#Easier {
+    margin-top : 70px;
+    color: #BDBDBD;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.logo-wrap {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 85px;
+}
+
+
+.logo-bnt {
+    /* box-sizing: content-box; */
+    width : 65px;
+    height : 65px;
+    /* border : 1px solid #bdbdbd; */
+    /* border-radius: 50%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin : 0 25px;
+}
+
